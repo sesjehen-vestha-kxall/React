@@ -1,0 +1,23 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+}
+  
+td, th {
+    border: 1px solid #868686;
+    text-align: right;
+    padding: 8px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+}
