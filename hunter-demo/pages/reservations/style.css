@@ -1,0 +1,211 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* header styles*/
+.header-top {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 35.5px;
+    padding-left: 35.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-nav {
+    line-height: 1em;
+    white-space: nowrap;
+}
+
+.header-font {
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    margin: 0.618em;
+    text-transform: uppercase;
+}
+
+.remove-underline {
+    text-decoration: none;
+}
+
+.header-branding-logo {
+    max-width: 145px;
+    width: 100%;
+}
+
+/* body styles*/
+
+/* reservationss*/
+.reservations-background-style {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100vw;
+}
+
+.main-container-style {
+    color: #171717;
+    padding: 10em 10em 4em 0em;
+}
+
+.big-container-style {
+    align-items: flex-start;
+    column-gap: 0.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columns-container-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 38%;
+}
+
+.small-container-style {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 4em 10em 2em;
+    width: 76%;
+}
+
+.titles-reservations-style {
+    color: black;
+    font-family: 'Andada Pro', serif;
+    font-size: 1.75em;
+    font-weight: lighter;
+    letter-spacing: 0.015em;
+    margin-bottom: 1em;
+}
+
+.paragraph-style {
+    color:  #171717CC;
+    font-family: 'Andada Pro', serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+.fields-container-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 2em;
+}
+
+.titles-form-style {
+    color:  #171717CC;
+    font-family: 'Andada Pro', serif;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 0.015em;
+}
+
+.subfields-container-style {
+    column-gap: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.separate-style {
+    flex-direction: column;
+}
+
+.subtitles-form-style {
+    color:  #171717CC;
+    font-family: 'Andada Pro', serif;
+    font-size: 0.6em;
+    font-weight: lighter;
+    letter-spacing: 0.015em;
+}
+
+.text-box-style {
+    color:  #171717CC;
+    background: #FAFAFA;
+    border: 1px solid #ccc;
+    border-radius: 0.1em;
+    font-family: 'Andada Pro', serif;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding: 0.8em;
+    width: 100%;
+}
+
+.button-style {
+    appearance: none;
+    background-color: transparent;
+    border-color: #171717;
+    border-radius: 0.3em;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 1em 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 25%;
+    height: 3.5em;
+}
+
+/*footer*/
+.footer-background-style {
+    background-color: #171717;
+    height: 100%;
+    width: 100vw;
+}
+
+.footer-contanier-style {
+    padding: 10em 13em 10em 13em;
+}
+
+.footer-socialmedias-style {
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    letter-spacing: 0.10em;
+    margin-bottom: 1em;
+}
+
+.footer-paragraph-style {
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9em;
+    line-height: 1.6;
+    word-spacing: 5px;
+}
+
+/*hover*/
+.hand {
+    cursor: pointer;
+}
+
+:hover.hand-header {
+    color: #7c7c7ca4;
+}
+
+:hover.hand-button {
+    color: white;
+    background-color: black;
+}
+
+:hover.hand-footer {
+    color: #b9b5b5a4;
+}
+  
