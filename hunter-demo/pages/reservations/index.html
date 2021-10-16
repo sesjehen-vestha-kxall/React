@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Italianno&family=Josefin+Sans:ital,wght@1,200&family=Kalam:wght@300&family=Lobster&family=Lobster+Two:ital@1&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Courgette&family=Ephesis&family=Inconsolata:wght@200&family=Italianno&family=Josefin+Sans:ital,wght@1,200&family=Kalam:wght@300&family=Lobster&family=Lobster+Two:ital@1&family=MonteCarlo&family=Nanum+Gothic&family=PT+Serif&family=Playfair+Display&family=Poppins:ital,wght@1,200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Andada+Pro:wght@400;600;700&family=Cormorant+Garamond:ital,wght@1,500&family=Courgette&family=Crimson+Pro:ital,wght@1,200&family=Ephesis&family=Gentium+Book+Basic:ital@1&family=Inconsolata:wght@200&family=Italianno&family=Josefin+Sans:ital,wght@1,200&family=Kalam:wght@300&family=Kaushan+Script&family=Lobster&family=Lobster+Two:ital@1&family=MonteCarlo&family=Nanum+Gothic&family=Old+Standard+TT:ital@1&family=PT+Serif&family=Playfair+Display&family=Poppins:ital,wght@1,200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <title>Reservations — Hunter</title>
+    </head>
+    <header class="header-top">
+        <nav class="header-nav">
+            <a class="header-font remove-underline hand-header" href="../home/index.html">WELCOME</a>
+            <a class="header-font remove-underline hand-header" href="../menu/index.html">MENU</a>
+            <a class="header-font remove-underline hand-header" href="../press/index.html">PRESS</a>
+        </nav>
+        <a href="../home/index.html">
+            <img src="../../assets/img/photos/hunter.png" alt="hunter" class="header-branding-logo"/>
+        </a>
+        <nav class="header-nav">
+            <a class="header-font remove-underline hand-header" href="./index.html">RESERVATIONS</a>
+            <a class="header-font remove-underline hand-header" href="../order-now/index.html">ORDER NOW</a>
+        </nav>
+    </header>
+    <body>
+        <section class="reservations-background-style">
+            <div class="main-container-style">
+                <div class="big-container-style">
+                    <div class="columns-container-style">
+                        <div class="small-container-style">
+                            <h2 class="titles-reservations-style">Reservations</h2>
+                            <p class="paragraph-style">For parties of six or more, we recommend making reservations at least two weeks in advance. For walk-ins, we only seat parties on a first come, first served basis.</p>
+                        </div>
+                    </div>
+                    <div class="columns-container-style">
+                        <form action="" class="small-container-style">
+                            <div class="fields-container-style">
+                                <label for="name" class="titles-form-style">Name *</label>
+                                <div class="subfields-container-style">
+                                    <div class="separate-style">
+                                        <input class="text-box-style" type="text" id="firstname" name="firstname" placeholder="" maxlength="30" required>
+                                        <label class="subtitles-form-style" for="firstname">First Name</label>
+                                    </div>
+                                    <div class="separate-style">
+                                        <input class="text-box-style" type="text" id="lastname" name="lastname" placeholder="" required>
+                                        <label class="subtitles-form-style" for="lastname">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-container-style">
+                                <label for="phone" class="titles-form-style">Phone Number *</label>
+                                <input class="text-box-style" type="text" id="phone" name="phone" placeholder="" required>
+                            </div>
+                            <div class="fields-container-style">
+                                <label for="email" class="titles-form-style">Email Address</label>
+                                <input class="text-box-style" type="text" id="email" name="email" placeholder="">
+                            </div>
+                            <div class="fields-container-style">
+                                <label for="date" class="titles-form-style">Date *</label>
+                                <div class="subfields-container-style">
+                                    <div class="separate-style">
+                                        <input class="text-box-style" type="datetime" id="mm" name="mm" placeholder="" required>
+                                        <label class="subtitles-form-style" for="mm">MM</label>
+                                    </div>
+                                    <div class="separate-style">
+                                        <input class="text-box-style" type="datetime" id="dd" name="dd" placeholder="" required>
+                                        <label class="subtitles-form-style" for="dd">DD</label>
+                                    </div>
+                                    <div class="separate-style">
+                                        <input class="text-box-style" type="datetime" id="yyyy" name="yyyy" placeholder="" required>
+                                        <label class="subtitles-form-style" for="yyyy">YYYY</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields-container-style">
+                                <label for="guest" class="titles-form-style">Number of Guest *</label>
+                                <input class="text-box-style" type="text" id="guest" name="guest" placeholder="" required>
+                            </div>
+                            <div class="fields-container-style">
+                                <label for="comments" class="titles-form-style">Comments</label>
+                                <input class="text-box-style" type="text" id="comments" name="comments" placeholder="">
+                            </div>
+                            <div class="fields-container-style">
+                                <input class="button-style hand-button" type="submit" id="button" name="button" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer class="footer-background-style">
+        <div class="footer-contanier-style">
+            <h2 class="footer-socialmedias-style">
+                <a class="footer-socialmedias-style hand-footer" href="https://www.facebook.com/squarespace/" target="_blank">Facebook</a>
+                &nbsp; | &nbsp;
+                <a class="footer-socialmedias-style hand-footer" href="https://www.instagram.com/squarespace/" target="_blank">Instagram</a>
+                &nbsp; | &nbsp;
+                <a class="footer-socialmedias-style hand-footer" href="https://twitter.com/squarespace?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a>
+            </h2>
+            <p class="footer-paragraph-style">
+                Powered by  
+                <a class="footer-paragraph-style hand-footer" href="https://github.com/shimadasoftware/React" target="_blank"> Shimada Software</a>
+            </p>
+        </div>
+    </footer>
+</html>
