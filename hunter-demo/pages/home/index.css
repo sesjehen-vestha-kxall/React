@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+nav {
+  display: flex;
+  padding: 2rem;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  /*font-family: 'Ubuntu Condensed', sans-serif;*/
+  /*font-family: 'Barlow Condensed', sans-serif;*/
+}
+
+.left-align {
+  margin-right: auto;
+}
+
+.right-align {
+  margin-left: auto;
+}
+
+nav div a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+nav div img {
+  max-width: 145px;
+  width: 100%;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  padding: 0;
+  margin: 0;
+}
+
+.page-content {
+  font-size: 2rem;
+  padding: 8.5rem 29rem 8.5rem 16rem;
+}
+
+.double-col-div {
+  display: flex;
+}
+
+/*==============================================================
+  Style Section: Menu
+==============================================================*/
+.menu-content em {
+  margin: 0 0 10rem -4rem;
+  font-size: 2rem;
+}
+
+.menu-content {
+  font-size: 2rem;
+  padding: 16rem 18rem 8.5rem 14rem;
+}
+
+.menu-column {
+  display: table;
+  margin: 0 auto;
+  width: 20rem;
+  margin-top: 8rem;
+}
+
+.menu-column div {
+  margin-bottom: 4rem;
+}
+
+.menu-column div p {
+  margin: 0;
+  font-size: 1rem;
+  color: rgb(187, 187, 187);
+}
+
+.top-left-text {
+  margin: 2rem;
+  color: white;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+/*==============================================================
+  Style Section: Comments
+==============================================================*/
+.comments-content {
+  background-color: rgb(23, 23, 23);
+  color: rgb(187, 187, 187);
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  padding: 9rem 12rem 10rem 17rem;
+}
+
+.comment {
+  display: table;
+  margin: 0 auto;
+  width: 34rem;
+  margin: 8rem 0;
+}
+
+.comment div {
+  font-size: 1rem;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  letter-spacing: 2px;
+  margin-top: 0.8rem;
+}
+
+.comment i {
+  text-decoration: underline;
+}
+
+/*==============================================================
+  Style Section: Location
+==============================================================*/
+.location-background-style {
+  background-color: #FFFFFF;
+  height: 110vh;
+  width: 100vw;
+}
+
+.location-container-style {
+  display: flex;
+  padding-top: 10rem;
+}
+
+.location-column-25-style {
+  margin: 0rem 6rem 0rem 9rem;
+}
+
+.location-column-75-style {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.location-title-style {
+  color: #171717;
+  font-size: 1.6em;
+  font-weight: lighter;
+  letter-spacing: 0.00em;
+  line-height: 1.4;
+  margin-bottom: 1.4em;
+}
+
+.location-paragraph-style {
+  color: #171717CC;
+  font-size: 0.9em;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+  margin-bottom: 4em;
+}
+
+.location-reservation-style {
+  color: #171717;
+  font-size: 1.8em;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.8;
+  margin-bottom: 1.4em;
+}
+
+.location-map-style {
+  width: 50%;
+  filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+/*==============================================================
+  Style Section: Footer
+==============================================================*/
+.footer-background-style {
+  background-color: #171717;
+  height: 100%;
+  width: 100vw;
+}
+
+.footer-contanier-style {
+  margin-top: 12rem;
+  padding: 10em 13em 10em 9em;
+  font-size: 1rem;
+  background-color: rgb(23, 23, 23);;
+}
+
+.footer-socialmedias-style {
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 1.2em;
+  letter-spacing: 0.10em;
+  margin-bottom: 1em;
+}
+
+.footer-paragraph-style {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1.6;
+  word-spacing: 5px;
+}
