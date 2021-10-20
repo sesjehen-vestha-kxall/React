@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+nav {
+    display: flex;
+    padding: 2rem 3rem;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    /*font-family: 'Ubuntu Condensed', sans-serif;*/
+    /*font-family: 'Barlow Condensed', sans-serif;*/
+}
+
+.left-align {
+    margin-right: auto;
+}
+
+.right-align {
+    margin-left: auto;
+}
+
+nav div a {
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav div img {
+    max-width: 145px;
+    width: 100%;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    padding: 0;
+    margin: 0;
+}
